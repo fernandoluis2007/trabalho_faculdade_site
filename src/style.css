@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+     --cream:#F6EFE4;
+    --wine:#6E2E3A;
+    --wine-deep:#4E1F28;
+    --sage:#7C8A63;
+    --gold:#BE9A3F;
+    --ink:#2B2119;
+    --paper:#FBF7EF;
+    --fonte-principal: 'Fraunces'
+
+}
+
+body{
+        background-color: #F6EFE4; /* cor de fundo base, tipo creme */
+        background-image:
+            repeating-linear-gradient(45deg, 
+                rgba(110,46,58,0.05) 0, 
+                rgba(110,46,58,0.05) 1px, 
+                transparent 1px, 
+                transparent 26px),
+            repeating-linear-gradient(-45deg, 
+                rgba(110,46,58,0.05) 0, 
+                rgba(110,46,58,0.05) 1px, 
+                transparent 1px, 
+                transparent 26px);
+        margin: 0;
+}
+
+/*
+.stitch-border{
+    position: absolute;
+    inset: 14px;
+    border: 1.5px dashed rgba(110,46,58,0.35);
+    pointer-events: none;
+}
+*/
+
+.nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    padding: 10px;
+}
+
+.nav-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    padding: 10px;
+}
+
+.titulo{
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo-nav{
+    font-family: var(--fonte-principal);
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--wine);
+}
+
+.legenda{
+    align-items: center;
+    padding: 10px
+}
+
+.sub-tiulo-nav{
+    font-family: var(--fonte-principal);
+    font-size: 20px;
+    font-weight: 400;
+    color: #612c3596;
+}
+
+.linha-efeito{
+    border-bottom: 1px solid rgba(110,46,58,0.25);
+    padding-bottom: 12px;
+    width: 80%;
+    margin-left: 9%;
+}
+
+.apresetacao-conteudo{
+    margin: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: max-content;
+}
+
+.space-sub-titulo{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    gap: 16px;
+}
+
+.sub-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--wine);
+}
+
+.legenda-titulo{
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: #612c3596;
+}
+
+.right {
+    width: 50%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & img{
+        width: 350px;
+        height: 350px;
+        border-radius: 8px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    }
+}
+
+.beneficios-card{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    ba
+}
+
