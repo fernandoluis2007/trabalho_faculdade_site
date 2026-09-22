@@ -69,7 +69,7 @@ O material é entregue em formato digital simples e de fácil compartilhamento (
  
 ## 👥 Como executar
  
-Basta abrir o arquivo `index.html` em qualquer navegador — não há dependências de build ou servidor.
+Basta abrir o link [`index.html`](https://trabalho-faculdade-site.onrender.com/) em qualquer navegador.
  
 ## 👨‍💻 Integrantes
  
